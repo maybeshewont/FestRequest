@@ -243,12 +243,29 @@ h2 {
 	color:#CCC;
 }
 
+h3 {
+	padding-top:20px;
+	font-family:'ostrich_sansbold';
+	font-size:27px;
+	text-align: center;
+	color:#CCC;
+}
+
 p1 {
 	font-family:'ostrich_sansmedium';
 	color: #CCC;
 	text-align:center;
 	padding:10px;
 	font-size:25px;
+	
+}
+
+p2 {
+	font-family:'ostrich_sansmedium';
+	color: #CCC;
+	text-align:center;
+	padding:10px;
+	font-size:20px;
 	
 }
 
@@ -278,38 +295,39 @@ a:hover {
 }
 
 #box1 {
-	width: 200px;
+	width: 220px;
 	height:200px;
-	background-color:#fff;
-	opacity: 0.3;
+	background-color: rgba(204, 204, 204, 0.3);
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
 	vertical-align: top;
     display: inline-block;
     *display: inline;
+	margin-right:6px;
 
 	
 }
 #box2 {
-	width: 200px;
+	width: 220px;
 	height:200px;
 	background-color:#fff;
-	opacity: 0.3;
+	background-color: rgba(204, 204, 204, 0.3);
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
 	vertical-align: top;
     display: inline-block;
     *display: inline;
+	margin-right:6px;
 	
 }
 
 #box3 {
-	width: 200px;
+	width: 220px;
 	height:200px;
 	background-color:#fff;
-	opacity: 0.3;
+	background-color: rgba(204, 204, 204, 0.3);
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
