@@ -522,6 +522,17 @@ textarea#styledtwo {
 	
 }
 
+textarea#styledthree {
+	background-color: rgba(204,204,204,0.6);
+	width: 200px;
+	height: 20px;
+	padding-top: 5px;
+	font-family: 'ostrich_sansmedium';
+	font-size:20px;
+	padding-left:10px;
+	
+}
+
 
 /*
 Back to top button 
@@ -573,7 +584,7 @@ Back to top button
 	display: inline;
 	text-align:center;
 	padding:10px;
-	font-size:18px;
+	font-size:16px;
 	text-decoration:none;
 	
 }
