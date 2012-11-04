@@ -4,7 +4,40 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Untitled Document</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+	
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
+});
+</script>
+
+
 </head>
+
 
 <header>
 
@@ -24,6 +57,9 @@
 
 <body>
 
+<body id="top">
+<div id="pagewrap">
+
 <center><h2>Frequently Asked Questions:</h2></center>
 
 <h3>What is Fest Request?</h3><BR /><p2>Fest Request is a crowd funding platform for individuals looking to host their own music festival, concert, or pop up party. Fest Request is full of  organizers who want to make their dream into an event that fans “get stoked” about so they can make that dream a reality.</p2>
@@ -41,6 +77,64 @@ If you are looking to fund a project or raise money for a particular cause, this
 <h3>Does Fest Request screen event campaigns before they launch?</h3><BR /><p2>Only a quick review to make sure they meet our event guidelines. Fest Request does not investigate a creator's ability to execute their event plan. Backers ultimately decide the validity and worthiness of an event by whether they decide to “get stoked” about it. Please refer to the accountability section for more.</p2>
 <h3>Why do people “get stoked” about events?</h3><BR /><p2>A lot of people rally around their friend’s festival or party idea. Some individuals are supporting the artist in attendance. Others may just be looking for an awesome event to attend in their area. Regardless of how they get to the site, once a person is stoked, they do everything in their power to spread the awesomeness with their network.</p2>
 <h3>Where do backers come from?</h3><BR /><p2>In most cases, the initial people who tend to get stoked about the event comes from the fans and friends of each organizer. If they like, they’ll spread the words to their friends, and so on to try to get them stoked about it as well!</p2>
+<h3>Are backers considered sponsors or vendors for this event?</h3><BR /><p2>No. Event organizers keep 100% ownership of their event and brand. Fest Request cannot be used for financial returns or equity, or to solicit loans.
+ 
+Some events that are funded on FestRequest may go on to make money at the actual event, but backers “get stoked” about a particular music festival, concert, or party to help them come to life, not financially profit.
+</p2>
+<h3>What are the fees?</h3><BR /><p2>If an event is successfully, Fest Request applies a 5% fee to the funds collected.
+ 
+“Get stoked” pledges will be processed by Amazon Payments. Payment processing fees work out to 3-5% per transaction.
+</p2>
+<h3>Who is responsible for completing a project as promised?</h3><BR /><p2>It's the organizers responsibility to execute their event. Fest Request is not involved in the development of the events themselves.
+ 
+Fest Request does not guarantee events or investigate a organizer's ability to run their event. On Fest Request, backers (you!) ultimately decide the validity and worthiness of an event by whether they get stoked about it in order to fund it.
+</p2>
+<h3>How do the “stoked” individuals know if an event will actually happen or not?</h3><BR /><p2>Promoting a Fest Request event (Festival, concert, party, etc.) is a very public act and organizers put their reputation on the line when they do.
+ 
+Backers should look for organizer who shares a clear plan about what their event would entail and how it will be executed. Organizers are encouraged to share links and as much background information as possible so backers can make informed decisions about the events they get stoked about.
+ 
+If a creator has no demonstrable experience in doing something like their event they envision or doesn't share key information, backers should take that into consideration. Can the organizer confirm contact with their given artist? Have they spoken to the venue they are trying to book? Does the organizer appear in the video? Have they connected via Facebook?
+ 
+Don't hesitate to request information from an organizer. You can always reach out before pledging via the "Contact me" button on their project page.
+</p2>
+<h3>How do I know if a fest organizer is who they say they are?</h3><BR /><p2>Perhaps you know the event organizer, or you heard about the fest from a trusted source.
+ 
+Maybe they have a first-person video. That would be hard to fake. "Is it really Lady GaGa on that camera?!" Well, it is if Lady GaGa is talking about the event.
+ 
+Still not sure? Look for the organizer bio section on the project page. Are they Facebook Connected? Do they provide links for further verification? The web is an invaluable resource for learning more about a person.
+ 
+ 
+When push comes to shove, go with your gut and use your Internet street smarts.
+ 
+</p2>
+<h3>What should organizers do if they’re having problems executing their event?</h3><BR /><p2>If problems come up, organizers are expected to post a event updates (which is emailed to all backers) explaining the situation. Sharing the story, speed bumps and all, is crucial. Most backers get stoked about events because they want to see something happen and they'd like to be a part of it. Organizers who are honest and transparent will usually find backers to be understanding.
+ 
+If the problems are severe enough that the organizer can't fulfill their event, organizers need to find a resolution. Steps could include offering refunds, detailing exactly how funds were used, possible rescheduling, and other actions to satisfy backers. 
+</p2>
+<h3>Is an organizer legally obligated to host their event if funded completely?</h3><BR /><p2>Yes. Fest Request's Terms of Use require organizers to fulfill all descriptors of the event as described in their video and page. We wrote the terms to create a legal requirement for organizers to follow through on their event, and to give backers recourse if they don't. We hope that backers will consider using this provision only in cases where they feel that a o has not made a good faith effort to complete the project and fulfill.</p2>
+<h3>Can Fest Request refund the money if an organizer is unable to host their event as promised?</h3><BR /><p2>No. Fest Request doesn't issue refunds as transactions are between backers and organizers, and organizers receive all funds (after fees) soon after their promotional campaign ends. Creators have the ability to refund backers through Amazon Payments.</p2>
+<h3>Why can’t Fest Request guarantee that events will happen or be executed?</h3><BR /><p2>We created Fest Request as a new way for organizers and audiences to work together to create awesome music related events. The traditional music funding system is risk-averse and profit-focused, and tons of great concert ideas never come to fruition because of the initial overhead costs. We thought Fest Request could open the door to a much wider variety of music festival, concerts, and pop up party options to allow everyone to decide what they wanted to see and experience.
+ 
+Fest Request is full of ambitious, innovative, and imaginative events to discover. Many of the events you see on Fest Request are in earlier stages of event development and are looking for a community to make them a reality. The fact that Fest Request allows organizers to take risks and attempt to create their dream event of is a feature, not a bug.
+</p2>
+<h3>What is Fest Request doing about fulfillment?</h3><BR /><p2>We have dedicated staff that focus on our users trust and safety in our site. We look into events reported by our community for guidelines violations and suspicious activity, and will take action when necessary. These efforts are focused on fraud and unacceptable uses of Fest Request, not an organizer's ability to execute an event properly. On Fest Request, backers ultimately decide the validity and worthiness of an event by whether they get stoked enough to fund it.</p2>
+<h3>Have anymore questions? Dont hesistate to <a href="contact.html">contact</a> us!</h3><BR /><p2></p2><BR />
+
+
+
+
+
+
+
+
+
+<p id="back-top">
+		<a href="#top"><span></span>Back to Top</a>
+	</p>
+
+</div>
+</body>
+</html>
 
 
 <div id="footer">
