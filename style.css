@@ -225,6 +225,7 @@ body {
 	background-size:cover;
 	background-size:auto;
 	background-color:#000;
+	background-attachment:fixed;
 }
 
 h1 {
@@ -241,6 +242,7 @@ h2 {
 	font-family:'ostrich_sansbold';
 	font-size:43px;
 	color:#CCC;
+
 }
 
 h3 {
@@ -249,6 +251,25 @@ h3 {
 	font-size:27px;
 	text-align: center;
 	color:#CCC;
+	margin-top:50px;
+}
+
+h4 {
+	padding-top:20px;
+	font-family:'ostrich_sansbold';
+	font-size:27px;
+	text-align: center;
+	color:#CCC;
+	margin-top:42px;
+}
+
+h5 {
+	padding-top:20px;
+	font-family:'ostrich_sansbold';
+	font-size:27px;
+	text-align: center;
+	color:#CCC;
+	margin-top:7px;
 }
 
 p1 {
@@ -264,7 +285,7 @@ p2 {
 	font-family:'ostrich_sansmedium';
 	color: #CCC;
 	text-align:center;
-	padding:10px;
+	padding-top:10px;
 	font-size:20px;
 	
 }
@@ -337,6 +358,8 @@ a:hover {
 	
 }
 
+
+
 .viewer {
 	height:298px;	
 	width: 450px;
@@ -381,4 +404,60 @@ a:hover {
 }
 .paging a.active {
 	background:url(images/mark-dwn.gif);
+}
+
+textarea {
+	background-color: rgba(204, 204, 204, 0.3);
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+#box4{
+	width: 220px;
+	height:400px;
+	background-color: rgba(204, 204, 204, 0.3);
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	vertical-align: top;
+    display: inline-block;
+    *display: inline;
+	margin-top:15px;
+	margin-right:6px;
+}
+
+#box5{
+	width: 220px;
+	height:400px;
+	background-color: rgba(204, 204, 204, 0.3);
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	vertical-align: top;
+    display: inline-block;
+    *display: inline;
+	margin-top:15px;
+	margin-right:6px;
+}
+
+#box6{
+	width: 220px;
+	height:400px;
+	background-color: rgba(204, 204, 204, 0.3);
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	vertical-align: top;
+    display: inline-block;
+    *display: inline;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+#sb {
+width:190px;
+height:40px;
+font-size: 30px;
+background-color:#ccc;
 }
